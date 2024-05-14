@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color :#f5f0f0;
+    --secondary-color : #373b69;
+    --color-white : white;
+    --color-dark : #000;
+}
+a:link, a:visited{
+    text-decoration: none;
+    font-weight: 500;
+}
+body{
+    background-color: var(--primary-color);
+}
+.header{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.mainHeading{
+    color: orange;
+    padding-top: 20px;
+}
+.subHeading{
+    font-size: 20px;
+}
+.section{
+    text-align: center;
+    background-color: var(--color-white);
+}
+.section i{
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.row{
+    display: table;
+    clear: both;
+    margin: 0 auto;
+}
+.col-3{
+    float: left;
+    padding: 15px;
+}
+.searchBar{
+    background-color: var(--primary-color);
+    width: 700px;
+    margin: 40px;
+    padding: 15px;
+    text-align: center;
+    border: none;
+    border-radius: 150px 150px 150px 150px;
+}
+.navbarr a{
+    border: #000 2px solid;
+    display: inline-block;
+    margin: 40px;
+    padding: 10px;
+    color: var(--color-dark);
+    background-color: orange;
+    width: 200px;
+    border-radius: 50px 50px 50px 50px;
+}
+button{
+    margin: 40px; 
+    height: 60px;
+    width: 250px;
+    font-weight: 600;
+    background-color: orange;
+    border: none;
+}
+.name{
+    border-radius: 20%;
+}
+.countriesCard{
+    padding: 5px 30px;
+}
+.countryCard{
+    width: 300px;
+    height: 400px;
+    margin: 15px;
+    background-color: var(--color-white);
+    border-radius: 5px 5px 5px 5px;
+    text-align: left;
+    padding: 20px;
+}
+
+.flag{
+    width: 150px;
+    margin: 0 auto 30px;
+    border: 1px solid black;
+}
+
+.logo{
+    width: 100%;
+}
+.c-name{
+    color: orange;
+}
+span{
+    font-weight: 500;
+}
+
+
+
+
